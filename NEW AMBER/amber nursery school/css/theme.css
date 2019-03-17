@@ -15,7 +15,7 @@ body {
 /* Header */
 header {
 	clear: both;
-	border-top: 5px solid #EDEDED;
+
 	background: #f6f6f6;
 	background: -moz-linear-gradient(top,  #f6f6f6 0%, #ffffff 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f6f6), color-stop(100%,#ffffff));
@@ -23,8 +23,7 @@ header {
 	background: -o-linear-gradient(top,  #f6f6f6 0%,#ffffff 100%);
 	background: -ms-linear-gradient(top,  #f6f6f6 0%,#ffffff 100%);
 	background: linear-gradient(to bottom,  #f6f6f6 0%,#ffffff 100%);
-	min-height: 100px;
-	padding: 8px 0;
+	
 }
 
 header > .navbar-collapse > .container {
@@ -32,7 +31,7 @@ header > .navbar-collapse > .container {
 }
 
 header div.header-top {
-	min-height: 50px;
+	
 }
 
 header.flat-menu div.header-top {
@@ -1750,7 +1749,7 @@ body.boxed div.body {
 	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 	-webkit-border-radius: 5px;
 	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
-	background-color: #FFFFFF;
+	background-color: #000;
 	border-bottom: 5px solid #121214;
 	border-radius: 5px;
 	border-top: 5px solid #CCC;
