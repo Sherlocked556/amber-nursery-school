@@ -1,0 +1,299 @@
+/* Add here all your CSS customizations */
+
+.font-reduced{
+	font-size: 2.2em;
+}
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+div.sticky1 {
+  position: fixed;
+  z-index: 10000;
+  bottom: 0;
+}
+
+.circle_photo{
+    border-radius: 50%;
+    height: 200px;
+    padding-right: 60px;
+}
+
+.small_note{
+	font-style:italic;
+	font-size: .8em;
+}
+
+.reduce_font_size{
+	font-size: 19px !important;
+	line-height: 26px !important;
+	margin-left: -40px !important;
+	/*left: 300px !important;*/
+}
+
+.custom_font_title{
+	font-size: 50px !important;
+}
+
+div.map-section {
+	background: transparent url(../images/child_top.png) center 0 no-repeat;
+	padding-top: 284px;
+	margin-top: 40px;
+}
+
+section.featured.map {
+	background-image: url(../images/child_bottom.png);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	margin-top: 0;
+	border-top: 0;
+}
+
+div.home-intro p em {
+color: #A1B3BE;
+}
+
+.thumb .thumb_outer{
+	position: relative;
+	height: 160px;
+	width:160px;
+}
+
+.thumb .thumb_con{
+   position: relative;
+   float: left;
+   margin-top: 25%;
+   height: 50%;
+   width: 100%;
+   text-align: center;
+
+}
+
+.thumb_outer img{
+	position: absolute;
+}
+
+.thumb_con h4 strong{
+	font-size: 50px;
+	color:#FFF;
+}
+
+.thumb_con h4{
+	font-size: 18px;
+	color:#FFF;
+}
+
+
+img.grayscale {
+    filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+img.grayscale:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.price_rates{
+	color: #93B3CE;
+	font-size: 1.8em;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 24px;
+	margin-bottom: 13px; 
+	text-transform: uppercase;
+}
+
+.featured-box .note{
+	margin-bottom: 13px;
+}
+
+.button_bar .option{
+	font-style: italic;
+	margin-right:4px;
+	margin-left:4px;
+
+}
+
+.button_bar a{
+	white-space:nowrap;
+} 
+
+.big_guy{
+ font-size: 80px;
+}
+
+.contact_bg{
+  background: url(../images/pipster_prep_sign1.png) no-repeat center center fixed; 
+  height:430px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fixed_bg{
+	margin-top: -35px; /* TO OFFSET THE NORMAL BORDER */
+}
+
+.menu-phone{
+	background: #a9a9a9;
+    text-align: center;
+    color:#000;
+}
+
+.menu-phone a{
+	color:#000;
+}
+
+section.page-top.custom-bg {
+background-color: #DA70D6;
+border-top-color: #0081c2;
+}
+
+section.page-top.custom-bg {
+background-repeat: repeat;
+background-color: #DA70D6;
+border-top: 5px solid #888;
+height: 300px;
+}
+
+.custom-bg .lead{
+	color:#3C3C3C !important;
+}
+
+.portfolio-item {
+ height: 300px;      /* equals max image height */
+
+}
+
+
+.portfolio-item img{
+    vertical-align: middle;
+    max-height: 300px;
+
+}
+
+.social-container img{
+    width:80px; /* you can use % */
+    height: auto;
+}
+
+nav.right_nav{
+	float:right !important;
+}
+
+.header-top .special{
+	clear: right;
+	float: right;
+	position: relative;
+	margin: 15px 10px 0;
+	color:#FFF;
+	font-size: 1.2em;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.student_testamonial blockquote.testimonial {
+background: #93B3CE !important;
+}
+
+.alert{
+	position:relative;
+}
+
+.close_me{
+	position: absolute;
+	top: 0;
+	right: 2px;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 20px; 
+	font-weight: 600;
+	/*border: 2px solid #000;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;*/
+}
+
+.close_me:hover{
+	font-weight: 800;
+	cursor: pointer;
+
+}
+
+.tall_me{
+	font-size: 25px;
+	line-height: 27px;
+}
+
+.tall_me button{
+	margin-top: 6px;
+}
+
+.tall_me .note{
+	font-size: .6em;
+	font-style: italic;
+	color: red;
+}
+
+.buffer_me{
+	padding-left:50px; padding-right: 50px
+}
+
+.buffer_me h2{
+	font-size: 2.2em;
+	color: #999;
+}
+
+:required:focus {
+  box-shadow: 0  0 3px rgba(0,0,0,0.5); 
+}
+
+.registered_success{
+	display: none;
+}
+
+.borderIt{
+	border: 1px solid #999;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	background-color: #e5e5e5;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.borderIt h4{
+	color: #999 !important;
+	font-weight: 700;
+}
+
+.location_lg{
+	font-size: 1.6em;
+    font-weight: 300;
+    line-height: 2.2em;
+    margin: 0 0 32px 0;
+}
+
+#ajax_loader{
+	position: fixed;
+  top: 50%;
+  left: 50%;
+   margin-top: -100px;
+  margin-left: -100px;
+  display:none;
+  z-index: 10000;
+}
+
+#ajax_loader img{
+	height: 200px;
+	width: 200px;
+}
+
+.drive_right{
+	margin-left: 20px;
+}
