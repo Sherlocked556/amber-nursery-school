@@ -67,7 +67,7 @@
 	}
 
 	header nav.nav-main {
-		padding: 10px 0;
+		
 		clear: both;
 		display: block;
 		float: none;
@@ -208,6 +208,7 @@
 		position: absolute;
 		right: 20px;
 		color: #FFF;
+		z-index: 9999;
 	}
 
 	header.single-menu button.btn-responsive-nav {
