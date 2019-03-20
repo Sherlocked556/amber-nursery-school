@@ -91,7 +91,7 @@ body {
 .pb-65 {padding-bottom: 65px;}
 .position-top-70 {
     position: relative;
-    top: -45px;
+    top: 100px;
 }
 .text-white{color:#fff;}
 .text-black{color:#333;}
@@ -389,14 +389,14 @@ a#scrollUp {
 	z-index:100;
 }
 .note-image {
-  position: relative;
+ 
+  
 }
 .note-content {
-  left: 0;
   padding: 20px 50px;
-  position: absolute;
-  top: 0;
-  z-index: 999;
+  position: relative;
+ 
+  
   height:100%;
   
 }
@@ -443,8 +443,15 @@ a#scrollUp {
 	text-transform: uppercase;
 }
 .choose-head span {
+    margin-top: 10px;
     font-size: 14px;
     color: #333333;
+    font-weight: 400;
+}
+.choose-head span p {
+    margin-top: 20px;
+    font-size: 14px;
+    
     font-weight: 400;
 }
 .single-choose {
@@ -612,8 +619,7 @@ select.select-course option {
 /*----------------------------------------*/
 .course-area{}
 .single-course{
-    height:100px;
-    margin-bottom:200px;
+    
 }
 .course-img {
   position: relative;
@@ -648,14 +654,14 @@ select.select-course option {
 }
 .course-content{
 	position:relative;
-	top:10px;
+	
 }
 .course-content a{
 	text-decoration:none;
 }
 .course-content a h3 {
     font-size: 16px;
-    color: #333333;
+    color: #DA70D6;
     font-weight: 600;
 	text-decoration:none;
 	margin-bottom:15px;
@@ -1169,71 +1175,8 @@ span.time-count {
         display: none;
     }
 }
-@media (max-width: 767px){
-.short-note-area {
-    top: 25px;
-    width:400px;
-    position: relative;
-    
-    margin-left: 150px;
-    margin-right:100px;
-    margin-bottom: 30px;
-    
-    align-items: flex-end;
-
-}
-.course-content p{
-    display: none;
-    
-    }
-}
-@media (max-width: 479px){
-    .short-note-area {
-        top: 25px;
-        width:320px;
-        position: relative;
-        
-        margin-left: 65px;
-        margin-right:50px;
-        margin-bottom: 30px;
-        
-        align-items: flex-end;
-
-    
-    }
-    .course-content p{
-        display: none;
-        
-        }
-}
 
 
-@media only screen and (max-width: 767px) and (min-width: 480px){
-.single-course {
-    margin-bottom: 40px;
-}
-
-}
-@media (max-width: 991px) and (min-width:767px){
-     .note-content {
-
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-top: 0px;
-    
-    font-size: 10px;
-        
-        
-     }
-     .note-content p{
-         font-size: 12px;
-         margin-bottom: 1px;
-     }
-     .course-content p{
-        display: none;
-        
-        }
-    }
     @media (max-width: 991px){
         header nav .nav-main{
             background-color: #000;
@@ -1246,3 +1189,8 @@ span.time-count {
             padding:0;
         }
     }
+.sld{
+    width:1349px;
+    height: 500px;
+    
+}
