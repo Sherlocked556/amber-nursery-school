@@ -664,3 +664,361 @@
 	}
 
 }
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.position-top-70 {
+		top: 0px;
+	}
+	.note-content {
+		padding: 50px 50px;
+	}
+	.single-choose{margin-top:25px;}
+	.choose-icon {
+		width: 70px;
+		height: 70px;
+	}
+	.choose-icon:after {
+		width: 60px;
+		height: 60px;
+		margin: 3px 0 0 30px;
+		left: -27px;
+	}
+	.choose-icon img {
+		padding-left: 25px;
+		padding-top: 10px;
+		width: 55px;
+		height: 35px;
+	}
+	.single-choose:hover .choose-icon img {
+		margin-left: -8px;
+	}
+	.chosen-container-single .chosen-single {
+		width: 210px;
+	}
+	.chosen-container.chosen-with-drop .chosen-drop {
+		width: 210px;
+	}
+	.chosen-container {
+		margin-right: 20px;
+	}
+	.call-to-action button {
+		width: 210px;
+	}
+	.form-action {
+		padding: 35px 30px;
+	}
+	.form-action form input {
+		width: 240px;
+	}
+	.form-action form button {
+		width: 240px;
+	}
+	.event-content {
+		margin-top:20px;
+	}
+	.footer-gallery li a img {
+		width: 66px;
+	}
+	}
+	
+	 
+	/* Tablet Layout :768px. */
+	@media (min-width: 768px) and (max-width: 991px) {
+		.header-bottom-area{
+			background:red;
+			height:100px;
+		}
+	
+	.logo a {
+		font-size: 16px;
+		margin-left: 5px;
+	}
+	.main-menu ul li a {
+		font-size: 11px;
+		padding: 14px 10px;
+	}
+	.mainmenu ul.nav.navbar-nav li a{
+		font-size:11px;
+	}
+	.note-content {
+		left: 0;
+		padding: 15px 30px;
+		top: 0;
+		z-index: 999;
+		position:relative;
+	}
+	.slider-content p {
+		width: 100%;
+	}
+	.short-note-area {
+		top: 25px;
+	}
+	.single-choose {
+		padding-bottom: 30px;
+	}
+	.course-img{
+		width:220px;
+	}
+	
+	.call-to-action {
+		margin-bottom: 30px;
+		padding-top: 30px;
+	}
+	.chosen-container-single .chosen-single {
+		width: 170px;
+	}
+	.chosen-container {
+		margin-right: 0px;
+	}
+	.chosen-container.chosen-with-drop .chosen-drop {
+		width: 170px;
+	}
+	.call-to-action button {
+		width: 170px;
+	}
+	.counter-icon i {
+		font-size: 30px;
+	}
+	.single-counter span {
+		font-size: 15px;
+	}
+	.instructor-content {
+		padding: 15px 0;
+	}
+	.coaching-action {
+		overflow: hidden;
+		margin-top: 150px;
+	}
+	.form-action form input {
+		width: 100%;
+	}
+	.event-content {
+		margin-top: 10px;
+	}
+	.event-content a h3 {
+		font-size: 14px;
+	}
+	.event-date {
+		margin-top: 20px;
+	}
+	.event-img img {
+		height: 165px;
+	}
+	.testimonial-content p {
+		width: 100%;
+	}
+	.content-width-50 p {
+		width: 80%;
+	}
+	.footer-contact li i {
+		margin-right: 10px;
+	}
+	.footer-widget {
+		margin-top: 20px;
+	}
+	}
+	
+	 
+	/* small mobile :320px. */
+	@media (max-width: 767px) {
+	.container {width:300px}
+	 .phone-number {
+		text-align: center;
+	}
+	.social-media {
+		text-align: center;
+	}
+	.header-bottom-area {
+		height: 100px;
+	}
+	.logo {
+		text-align: left;
+	}
+	.mainmenu {
+		position: relative;
+		top: -70px;
+	}
+	.mainmenu ul.nav.navbar-nav li a {
+		color: #fff;
+	}
+	.mainmenu ul.nav.navbar-nav {
+		z-index: 9999;
+		position: relative;
+		background: rgba(0,0,0,0.8);
+		color: #fff;
+	}
+	div#bs-example-navbar-collapse-1 {
+		background: rgba(0,0,0,0.8);
+	}
+	.header-search {
+		position: relative;
+		top: -47px;
+	}
+	.inner-form form {
+		width: 220px;
+	}
+	.inner-form {
+		right: 50px;
+	}
+	.short-note-area {
+		top: 25px;
+	}
+	.slider-area .slider-content {
+		display: none;
+	}
+	.note-content {
+		padding: 50px 40px;
+	}
+	.single-note {
+		margin-bottom: 20px;
+	}
+	.section-title h1 {
+		font-size: 29px;
+	}
+	.choose-content {
+		display: inline-block;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.choose-icon {
+		left: 50px;
+	}
+	.select-course {
+		margin-bottom: 20px;
+	}
+	.chosen-container-single .chosen-single {
+		margin-bottom: 20px;
+	}
+	.chosen-container-single .chosen-single {
+		width: 240px;
+	}
+	.chosen-container.chosen-with-drop .chosen-drop {
+		width: 240px;
+	}
+	.call-to-action button {
+		width: 100%;
+	}
+	.course-img {
+		width: 250px;
+	}
+	.single-course {
+		margin-bottom: 30px;
+	}
+	.single-counter {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.instructor-content {
+		padding: 10px 0;
+	}
+	.coaching-action {
+		padding-top: 250px;
+	}
+	.timer {
+		margin-top: 35px;
+	}
+	.section-title h1 {
+		font-size: 16px;
+	}
+	.content-width-80 p {
+		width: 100%;
+	}
+	.form-action form input {
+		width: 100%;
+	}
+	.form-action form button {
+		width: 100%;
+	}
+	.event-date {
+		margin-left: 80px;
+	}
+	.event-style .owl-controls .owl-nav {
+		right: 50%;
+		transform: translate(50%);
+	}
+	.testimonial-content p {
+		width: 100%;
+	}
+	.content-width-50 p {
+		width: 100%;
+	}
+	.footer-widget {
+		margin-bottom: 60px;
+	}
+	}
+	 
+	/* Large Mobile :480px. */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {width:450px}
+	 .mean-bar{display:block;}
+	 .logo {
+		text-align: left;
+	}
+	.mainmenu {
+		position: relative;
+		top: -70px;
+	}
+	.mainmenu ul.nav.navbar-nav li a {
+		color: #fff;
+	}
+	.mainmenu ul.nav.navbar-nav {
+		z-index: 9999;
+		position: relative;
+		background: rgba(0,0,0,0.8);
+		color: #fff;
+	}
+	div#bs-example-navbar-collapse-1 {
+		background: rgba(0,0,0,0.8);
+	}
+	.inner-form form {
+		width: 180px;
+	}
+	.slider-area .slider-content {
+		display: block;
+	}
+	.slider-area .slider-content h2{
+		font-size:30px;
+		padding-bottom:20px;
+	}
+	.slider-area .slider-content h1{
+		font-size:30px;
+	}
+	.slider-area .slider-content p{
+		display:none;
+	}
+	.call-to-action {
+		margin-left: 60px;
+	}
+	.course-img {
+		width: 250px;
+	}
+	.single-course {
+		margin-bottom: 40px;
+	}
+	.timer {
+		margin-top: 0px;
+	}
+	.timer .cdown {
+		margin-right: 26px;
+	}
+	
+	.coaching-action {
+		padding-top: 150px;
+	}
+	.event-style .owl-controls .owl-nav {
+		right: 0;
+		transform: translateX(50%);
+	}
+	.event-date {
+		margin-left: 135px;
+	}
+	.footer-gallery li a {
+		padding: 10px;
+	}
+	}
+	.col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
