@@ -1192,5 +1192,28 @@ span.time-count {
 .sld{
     width:1349px;
     height: 500px;
-    
+
+}
+.abs{
+float: left;
+width: 35%;
+height: 50%;
+}
+.sab{
+    float: right;
+    width: 35%;
+    height: 35%;
+    }
+.par{
+    padding-right: 10px;
+}
+#logo{
+    float: left;
+    height: 7em;
+    width: 7em;
+   
+    top: 0px;
+    z-index: 999999;
+    margin-left: 50px;
+
 }
